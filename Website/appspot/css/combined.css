@@ -17,7 +17,7 @@ body {
 	font-size: 14px; 
 	line-height: 20px; 
 	color: rgb(51, 51, 51); 
-	background: url(http://localhost:9080/images/1dfcca04e2c7b38afe3e4aac93cd297a.jpg) 50% 0% no-repeat scroll rgb(48, 48, 48); 
+	background: url(/images/1dfcca04e2c7b38afe3e4aac93cd297a.jpg) 50% 0% no-repeat scroll rgb(48, 48, 48); 
 	background-color: rgb(255, 255, 255); 
 	
 }
@@ -43,7 +43,7 @@ html, body { height: auto; padding: 0px; }
 .wb_button { display: block; padding: 0px; margin: 0px; text-align: center; text-decoration: none; cursor: pointer; }
 .wb_button, .wb_button:hover, .wb_button:active, .wb_button:focus, .wb_button:visited { outline: none !important; }
 .wb_button span { display: block; padding: 0px; margin: 0px; }
-[class^="ico-lang"], [class*=" ico-lang"] { width: 18px; height: 12px; display: inline-block; padding: 0px; margin: 0px; border: none; font-size: 1px; line-height: 1px; overflow: hidden; background: url(http://localhost:9080/images/flags_matrix.png) no-repeat; }
+[class^="ico-lang"], [class*=" ico-lang"] { width: 18px; height: 12px; display: inline-block; padding: 0px; margin: 0px; border: none; font-size: 1px; line-height: 1px; overflow: hidden; background: url(/images/flags_matrix.png) no-repeat; }
 i.ico-lang-uk { background-position: -378px -132px; }
 i.ico-lang-de { background-position: -72px -60px; }
 .langs_flags { display: inline-block; }
