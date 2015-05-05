@@ -1,0 +1,16 @@
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\bin\Release\ADSwitch.dll
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\bin\Release\ADSwitch.pdb
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\bin\Release\ADSwitch.xml
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\obj\Release\ADSwitch.Resources.resources
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\obj\Release\ADSwitch.vbproj.GenerateResource.Cache
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\obj\Release\ADSwitch.dll
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\obj\Release\ADSwitch.xml
+D:\Projekte\ADSwitch\ADSwitchC\ClassLibrary1\obj\Release\ADSwitch.pdb
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\bin\Release\ADSwitch.dll
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\bin\Release\ADSwitch.pdb
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\bin\Release\ADSwitch.xml
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\obj\Release\ADSwitch.Resources.resources
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\obj\Release\ADSwitch.vbproj.GenerateResource.Cache
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\obj\Release\ADSwitch.dll
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\obj\Release\ADSwitch.xml
+D:\Projekte\ADSwitch\ADSwitch\ADSwitch\obj\Release\ADSwitch.pdb

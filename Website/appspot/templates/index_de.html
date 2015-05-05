@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+
+{% block head %}
+<meta name="description" content="Ein Tool zum einfachen wechseln des aktiven Wiedergabegerätes." />
+<meta name="keywords" content="Tool Standard Wiedergabegerät Ändern Windows Vista 7 8 8.1" />
+<link rel="alternate" hreflang="en" href="/en" />
+{% endblock %}
+
+{% block heading %}
+<h1 class="wb-stl-heading1">Wiedergabegerät ändern mit <u>nur einem</u> Klick.</h1>
+{% endblock %}
+
+{% block content %}
+<h5 class="wb-stl-subtitle">
+	Ich habe ein USB-Headset. Windows schaltet die Soundausgabe auf Kopfhörer wenn man ein klassisches Headset (mit Klinke) einsteckt. Doch bei einem USB-Headset muss man das Lautsprecher-Icon im Tray rechtsklicken und dann über Wiedergabegeräte -&gt; Headset -&gt; OK gehen. Das sind 4 clicks und diverse Mausbewegungen.
+	<br /><br />Mit ADSwitch geht's einfacher. Es fügt ein neues Icon in den Tray hinzu. Angeklickt schaltet es das aktuelle Wiedergabegerät stumm. Bei Doppelklick schaltet es auf das nächste freie Wiedergabegerät. Bei Rechtsklick öffnet sich das Kontext-Menü.
+	<br /><br />ADSwitch is kostenlos und steht unter der <a href="http://opensource.org/licenses/MIT" target="_blank">MIT Lizenz</a>.
+	<br /><br />Danke an Dave Amenta für das Bereitstellen der <a href="http://www.daveamenta.com/2011-05/programmatically-or-command-line-change-the-default-sound-playback-device-in-windows-7/" target="_blank">low level API</a>.
+</h5>
+{% endblock %}
+
+{% block download %}
+<span>Herunterladen</span>
+{% endblock %}
+
+{% block sourcecode %}
+<span>Quelltext</span>
+{% endblock %}
+
+{% block compatibility %}
+<p class="wb-stl-normal" style="text-align: right;">Läuft unter Windows Vista, Windows 7 und Windows 8.1. Wurde nicht mit Windows 10 getestet.</p>
+{% endblock %}

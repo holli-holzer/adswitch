@@ -1,0 +1,12 @@
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.Resources.resources
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.vbproj.GenerateResource.Cache
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitchC.exe
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitchC.pdb
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitchC.xml
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitch.dll
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitch.pdb
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\bin\Debug\ADSwitch.xml
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.vbprojResolveAssemblyReference.cache
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.exe
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.xml
+D:\Projekte\ADSwitch\ADSwitchC\ADSwitchC\obj\x86\Debug\ADSwitchC.pdb

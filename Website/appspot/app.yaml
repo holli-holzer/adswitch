@@ -1,0 +1,48 @@
+application: audio-device-switch
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /favicon.ico
+  static_files: images/favicon.ico
+  upload: images/favicon.ico
+  expiration: "7d 1h"
+  
+- url: /googled2e1c97519aa62b1.html
+  static_files: templates/googled2e1c97519aa62b1.html
+  upload: templates/googled2e1c97519aa62b1.html
+  expiration: "7d 1h"
+ 
+- url: /robots.txt
+  static_files: templates/robots.txt
+  upload: templates/robots.txt
+  expiration: "7d 1h"
+  
+- url: /js
+  static_dir: js
+  expiration: "7d 1h"
+  http_headers:
+    Vary: Accept-Encoding
+
+- url: /download
+  static_dir: dld
+  expiration: "7d 1h"
+
+- url: /fonts
+  static_dir: fonts
+  expiration: "7d 1h"
+
+- url: /css
+  static_dir: css
+  expiration: "7d 1h"
+  http_headers:
+    Vary: Accept-Encoding
+  
+- url: /images
+  static_dir: images
+  expiration: "7d 1h"
+  
+- url: .*
+  script: main.application

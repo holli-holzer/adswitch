@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>ADSwitch</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=992" />
+		{% block head %}
+		<meta name="description" content="A tool to simply change the active audio output device." />
+		<meta name="keywords" content="tool audio playback device output standard change Windows Vista 7 8 8.1" />
+		<link rel="alternate" hreflang="de" href="/de" />
+		{% endblock %}
+		
+		<link rel="shortcut icon" href="/images/speaker-black-plastic-plus-yellow-cone-icon-ts1430566740.png" type="image/png" />
+		<link href="css/combined.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="root">
+			<div class="vbox wb_container" id="wb_header">
+				<div id="wb_element_instance12" class="wb_element" style=" line-height: normal;">
+					<h4 class="wb-stl-pagetitle">ADSwitch</h4>
+				</div>
+				<div id="wb_element_instance13" class="wb_element">
+					<div class="lang-selector langs_flags">
+						<a href="/de" title="Deutsch"><i class="ico-lang-de"></i></a>
+						<a href="/en" title="English"><i class="ico-lang-uk"></i></a>
+					</div>
+				</div>
+				<div id="wb_element_instance14" class="wb_element"><img alt="" src="/images/243a8a6a485b63fb3d00fe5572d2f234_80x80.png" height="80" width="80" /></div>
+				<div id="wb_element_instance15" class="wb_element" style=" line-height: normal;">
+					{% block heading %}
+					<h1 class="wb-stl-heading1">Change your Playback Device in <span class="underlined">just one</span> Click.</h1>
+					{% endblock %}
+				</div>
+				<div id="wb_element_instance16" class="wb_element">
+					<img alt="" src="https://cdn4.iconfinder.com/data/icons/VISTA/networking/png/64/headphone.png" height="64" width="64" />
+				</div>
+			</div>
+			<div class="vbox wb_container" id="wb_main">
+				<div id="wb_element_instance17" class="wb_element" style=" line-height: normal;">
+					{% block content %}
+					<h5 class="wb-stl-subtitle">
+						I have a USB headset. Windows switches the sound from speakers to an old-fashioned Headset once it is plugged in. A USB headset however has to be activated by right-clicking the speaker icon in the tray and then selecting Playback Devices -&gt; Headset -&gt; OK. That's 4 clicks and various mouse movements. 
+					</h5>
+					<h5 class="wb-stl-subtitle">
+						<br />ADSwitch makes that easier. It adds an Icon to the system tray. When clicked it mutes/unmutes the current playback device. When double-clicked it cycles trough the available playback devices. When right-clicked, you can access the context menu.
+					</h5>
+					<h5 class="wb-stl-subtitle"><br />ADSwitch is free and licensed under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</h5>
+					<h5 class="wb-stl-subtitle"><br />Thanks to Dave Amenta for providing the <a href="http://www.daveamenta.com/2011-05/programmatically-or-command-line-change-the-default-sound-playback-device-in-windows-7/" target="_blank">low level API</a>.</h5>
+					{% endblock %}
+				</div>
+				<div id="wb_element_instance18" class="wb_element">
+					<a class="wb_button" href="/download/ADSwitchInstaller.exe" target="_blank">
+						{% block download %}
+						<span>Download</span>
+						{% endblock %}
+					</a>
+				</div>
+				<div id="wb_element_instance19" class="wb_element">
+					<a class="wb_button" href="/download/ADSwitchSourcecode.zip">
+						{% block sourcecode %}
+						<span>Sourcecode</span>
+						{% endblock %}
+					</a>
+				</div>
+				<div id="wb_element_instance20" class="wb_element">
+					<a href="https://www.youtube.com/watch?v=Xy750dotnPU" target="blank"><img alt="" src="/images/d2773c06dc07eb9008be49d6a2d7d0ad_520x230.png" width="520" height="230" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="vbox wb_container" id="wb_footer" style="height: 108px;">
+			<div id="wb_element_instance21" class="wb_element" style=" line-height: normal;">
+				{% block compatibility %}
+				<p class="wb-stl-normal" style="text-align: right;">Works under Windows Vista, Windows 7 and Windows 8.1. Has not been tested with Windows 10.</p>
+				{% endblock %}
+			</div>
+			<p style="padding-top: 70px; margin: auto; margin-top: 20px; text-align:center;" >
+			<a href="https://validator.w3.org/check?uri=http%3A%2F%2Fwww.audio-device-switch.appspot.com%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;ss=1&amp;outline=1&amp;group=0&amp;user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices" target="blank">
+				<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" />
+			</a>
+			&nbsp;&nbsp;
+			<a href="https://appengine.google.com/" target="blank">
+				<img src="/images/google-app-engine.png" alt="Google Appengine Icon" height="31" width="111" />
+			</a>
+			<br/>
+			<a href="https://www.visualstudio.com/" target="blank">
+				<img src="/images/vstudio.png" alt="Visual Studio Icon" height="60" width="82" />
+			</a>
+			</p>
+		</div>
+	</body>
+</html>
+
