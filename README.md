@@ -5,7 +5,10 @@ I have a USB headset. Windows switches the sound from speakers to an old-fashion
 
 ADSwitch makes that easier. It adds an Icon to the system tray. When clicked it mutes/unmutes the current playback device. When double-clicked it cycles trough the available playback devices. When right-clicked, you can access the context menu.
 
-You can download it by visiting the project homepage:
+There's a video showing these features:
+https://www.youtube.com/watch?v=Xy750dotnPU
+
+You can download the software by visiting the project homepage:
 http://audio-device-switch.appspot.com/
 
 ADSwitch is free and licensed under the MIT License:
